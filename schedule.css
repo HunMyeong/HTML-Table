@@ -1,5 +1,6 @@
 table {
     border: solid 1px black;
+    width: 100%;
 }
 
 th {
@@ -11,6 +12,7 @@ td {
     width: 200px;
     border: solid 1px palevioletred;
     text-align: center;
+    height: 100px;
 }
 
 h1 {
