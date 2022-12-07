@@ -39,3 +39,12 @@ img {
     width: 230px;
     height: 200px;
 }
+
+.JV {
+    background-color: antiquewhite;
+    color: green;
+}
+
+th {
+    background-color:bisque;
+}
