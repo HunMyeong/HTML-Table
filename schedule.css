@@ -39,3 +39,31 @@ img {
     width: 250px;
     height: 200px;
 }
+
+.오픈{
+    background-color: aqua;
+}
+
+.자바{
+    background-color: bisque;
+}
+
+.라가{
+    background-color: cadetblue;
+}
+
+.컴활{
+    background-color: darkgray;
+}
+
+.이산{
+    background-color: darksalmon;
+}
+
+.프론{
+    background-color: greenyellow;
+}
+
+.데베{
+    background-color: pink;
+}
