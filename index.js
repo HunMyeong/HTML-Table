@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
-    $("#toggle").onclick(function(){
-        $("h1").slideToggle(0);
+    $("#toggle").click(function(){
+        $("table").slideToggle(0);
     });
 
 });
