@@ -1,7 +1,7 @@
 table {
     border: solid 1px black;
     width: 100%;
-    margin-bottom: 100px;
+   margin-bottom: 10mm;
 }
 
 th {
@@ -17,8 +17,10 @@ td {
 }
 
 h1 {
+    
     text-align: center;
-    margin: 5px;
+    margin: 15px;
+    
 }
 
 a {
@@ -27,15 +29,17 @@ a {
 }
 
 .logo {
-    width: 300px;
+    width: 200px;
+    height: 80px;
     text-align: center;
     margin: 0%;
+    
 }
 
 h3 {
     text-align: right;
     margin: 0%;
-    color: blue;
+    color: rgb(110, 110, 110);
 }
 
 h5 {
@@ -54,7 +58,7 @@ img {
 
 
 .오픈{
-    background-color: aqua;
+    background-color: rgb(221, 244, 244);
 }
 
 .자바{
@@ -62,11 +66,11 @@ img {
 }
 
 .라가{
-    background-color: cadetblue;
+    background-color: rgb(224, 224, 224);
 }
 
 .컴활{
-    background-color: darkgray;
+    background-color: rgb(234, 255, 245);
 }
 
 .이산{
@@ -74,11 +78,11 @@ img {
 }
 
 .프론{
-    background-color: whitesmoke;
+    background-color: rgb(230, 236, 218);
 }
 
 .데베{
-    background-color: pink;
+    background-color: rgb(254, 223, 228);
 }
 
 .JV {
@@ -87,9 +91,17 @@ img {
 }
 
 th {
-    background-color:rgb(236, 225, 249);
+    background-color: rgba(239, 239, 239, 0.733);
 }
 
 .th1{
     background-color: white;
+}
+
+.td{
+    background-color: rgba(239, 239, 239, 0.733);
+}
+
+.h1font{
+    font-family: Verdana, Geneva, Arial, sans-serif;
 }
