@@ -1,13 +1,19 @@
 $(document).ready(function(){
 
+
     $("#toggle").click(function(){
         $("table").slideToggle(0);
        
     });
-    $("#toggle").click(function(){
-        $("professor").slideToggle(0);
-       
+
+    $("#btnOnProfessor").click(function(){
+        $(".professor").slideDown(0);
     });
+    
+    $("#btnOffProfessor").click(function(){
+        $(".professor").slideUp(0);
+    });
+
 
   
 });
