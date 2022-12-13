@@ -7,146 +7,183 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="schedule.css">
     <script src="jquery-3.6.1.min.js"></script>
-    <script src = "index.js"></script>
+    <script src="index.js"></script>
     <title>일석이조 일정표</title>
-    
-    
+
+
 </head>
 
 <body>
-    
-    <a href="https://www.dit.ac.kr/kr/?ref=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8%3D" target="_blank"><img class="logo" src="https://mblogthumb-phinf.pstatic.net/MjAxNzA1MTRfMjg2/MDAxNDk0NzQ3Mzc0Mzk1.JxVfvvyBrSSu8AxQD_2Snj73vhOhkVY5a_TQTAiGWaEg.NwgcifC3b8dVdtFb9Vlc1C1NtLiZ-CrjjfcojMOxGD4g.GIF.kmu2333/19._%EB%8F%99%EC%9D%98%EA%B3%BC%ED%95%99%EB%8C%80_%EB%A1%9C%EA%B3%A0.gif?type=w800" alt=""></a>
+
+    <a href="https://www.dit.ac.kr/kr/?ref=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8%3D" target="_blank"><img class="logo"
+            src="https://mblogthumb-phinf.pstatic.net/MjAxNzA1MTRfMjg2/MDAxNDk0NzQ3Mzc0Mzk1.JxVfvvyBrSSu8AxQD_2Snj73vhOhkVY5a_TQTAiGWaEg.NwgcifC3b8dVdtFb9Vlc1C1NtLiZ-CrjjfcojMOxGD4g.GIF.kmu2333/19._%EB%8F%99%EC%9D%98%EA%B3%BC%ED%95%99%EB%8C%80_%EB%A1%9C%EA%B3%A0.gif?type=w800"
+            alt=""></a>
     <H1 class="h1 font">2022학년도 1학년 2학기 시간표</H1>
     <h3>컴퓨터 정보과</h3>
     <h5>202231900 박훈명</h5>
     <h5>201866270 김단아</h5> <!-- 학번 적어주세요! -->
     <br>
-    <button id = "toggle">시간표 표시/숨김</button>
-    <button id = "btnOnProfessor">교수님 목록 켜기</button>
-    <button id = "btnOffProfessor">교수님 목록 끄기</button>
-    
-    <table class = "schedule">
-        
+    <button id="toggle">시간표 표시/숨김</button>
+    <button id="professortoggle">교수님 목록 표시/숨김</button>
+    <button id="review">소감 표시/숨김</button>
+
+    <table class="schedule">
+
         <th class="th1"></th>
         <th>월</th>
         <th>화</th>
         <th>수</th>
         <th>목</th>
         <th>금</th>
-        
+
         <tr>
-            <td class="td" >주간1교시<br> 09:00~
+            <td class="td">주간1교시<br> 09:00~
                 09:50
-                <td class="오픈" rowspan="2">오픈소스</td>
-                <td ></td>
-                <td class="프론" rowspan="2" >프론트</td>
-                <td></td>
-                <td></td>
-                
-                
-                
-                
-            </tr>
-            <tr>
-                <td class="td">주간2교시<br> 10:00~
-                    10:50
-                </td>
-                <td class="컴활" rowspan="2">컴퓨터활용</td>
-                <td class="데베" rowspan="2">데이터베이스</td>
-                <td class="데베" rowspan="2" >데이터베이스</td>
-                
-                
-            </tr>
-            <tr>
-                <td class="td">주간3교시<br> 11:00~
-                    11:50</td>
+            <td class="오픈" rowspan="2">오픈소스</td>
+            <td></td>
+            <td class="프론" rowspan="2">프론트</td>
+            <td></td>
+            <td></td>
+
+
+
+
+        </tr>
+        <tr>
+            <td class="td">주간2교시<br> 10:00~
+                10:50
+            </td>
+            <td class="컴활" rowspan="2">컴퓨터활용</td>
+            <td class="데베" rowspan="2">데이터베이스</td>
+            <td class="데베" rowspan="2">데이터베이스</td>
+
+
+        </tr>
+        <tr>
+            <td class="td">주간3교시<br> 11:00~
+                11:50</td>
             <td class="자바" rowspan="2">자바</td>
             <td class="오픈" rowspan="2">오픈소스</td>
-            
+
         </tr>
         <tr>
             <td class="td">주간4교시<br> 12:00~
                 12:50</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                
-            </tr>
-            <tr>
-                <td class="td">주간5교시<br> 13:00~
-                    13:50</td>
-                    <td></td>
-                    <td class="자바" rowspan="2">자바</td>
-                    
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    
-                </tr>
-                <tr>
-                    <td class="td">주간6교시<br> 14:00~
-                        14:50</td>
-                        <td class="라가">라이프가이드</td>
-                        <td></td>
-                        <td></td>
-                        <td class="프론" rowspan="2">프론트</td>
-                    </tr>
-                    
-                    
-                    <tr>
-                        <td class="td">주간7교시 <br>15:00~
-                            15:50</td>
-                            <td></td>
-                            
-                            <td class="이산" rowspan="2">이산수학</td>
-                            <td></td>
             <td></td>
-            
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td class="td">주간5교시<br> 13:00~
+                13:50</td>
+            <td></td>
+            <td class="자바" rowspan="2">자바</td>
+
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td class="td">주간6교시<br> 14:00~
+                14:50</td>
+            <td class="라가">라이프가이드</td>
+            <td></td>
+            <td></td>
+            <td class="프론" rowspan="2">프론트</td>
+        </tr>
+
+
+        <tr>
+            <td class="td">주간7교시 <br>15:00~
+                15:50</td>
+            <td></td>
+
+            <td class="이산" rowspan="2">이산수학</td>
+            <td></td>
+            <td></td>
+
         </tr>
         <tr>
             <td class="td">주간8교시 <br>16:00~
                 16:50</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                
-            </tr>
-            
-            
-            
-        </table>
-        
- 
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
 
-    <table class = "professor">
-        <h1>교수님 목록</h1>
-    <div>
-        <tr>
-        <td><img src="https://www.marieclairekorea.com/wp-content/uploads/2015/12/1601mcmacemg12_04-1-960x1210.jpg" alt="우리 수혁이"></td>    
-        <td><img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA1MTRfMjI2%2FMDAxNjUyNTI5MTUyNjA2.dNc5b5kAHmiiGGANaKUyvj_LvVN3okzhdh2rlO038oIg.DxmPYRBXjg8AC0AwDnU7qeY2DVGN6L0uyidS1eq9qcAg.JPEG.nwowolf%2F20220514_115747.jpg&type=sc960_832" alt=""></td>
-        <td><img src="https://entertainimg.kbsmedia.co.kr/cms/uploads/PERSON_20220718124211_33ff93a09252603aa816492071b6154f.jpg" alt="김태리"></td>
-        <td><img src="https://cdn.imweb.me/thumbnail/20220724/51a5a25fe9487.jpg" alt=""></td>
         </tr>
-    
-    </div>
+
+
+
     </table>
 
-    <table>
-    <th>학번이름</th>
-    <th>소감</th>
 
-    <tr>
-        <td></td>
-        <td></td>
-    </tr>
 
-    <tr>
-        <td></td>
-        <td></td>
-    </tr>
+    <table class="professor">
 
-</table>
+        <tr><td colspan="4"><h1>교수님 목록</h1></td></tr>
+
+
+        <th>
+            <img src="https://www.marieclairekorea.com/wp-content/uploads/2015/12/1601mcmacemg12_04-1-960x1210.jpg"
+                alt="우리 수혁이">
+        </th>
+        <th>
+            <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA1MTRfMjI2%2FMDAxNjUyNTI5MTUyNjA2.dNc5b5kAHmiiGGANaKUyvj_LvVN3okzhdh2rlO038oIg.DxmPYRBXjg8AC0AwDnU7qeY2DVGN6L0uyidS1eq9qcAg.JPEG.nwowolf%2F20220514_115747.jpg&type=sc960_832"
+                alt="">
+        </th>
+        <th>
+            <img src="https://entertainimg.kbsmedia.co.kr/cms/uploads/PERSON_20220718124211_33ff93a09252603aa816492071b6154f.jpg"
+                alt="김태리">
+        </th>
+        <th>
+            <img src="https://cdn.imweb.me/thumbnail/20220724/51a5a25fe9487.jpg" alt="">
+        </th>
+
+
+
+        <tr class="professorheader">
+            <td>
+                이수혁 교수님
+            </td>
+            <td>
+                김채원 교수님
+            </td>
+            <td>
+                김태리 교수님
+            </td>
+            <td>
+                윈터 교수님
+            </td>
+        </tr>
+
+
+        <tr>
+            <td> 컴퓨터 정보학과</td>
+            <td> 간호학과</td>
+            <td> 생명공학과</td>
+            <td> 화학공학과</td>
+        </tr>
+
+    </table>
+
+    <table class="reviewclass">
+        <th>학번이름</th>
+        <th>소감</th>
+
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+
+    </table>
 
 </body>
 
