@@ -105,3 +105,10 @@ th {
 .h1font{
     font-family: Verdana, Geneva, Arial, sans-serif;
 }
+
+
+.professorheader{
+    text-align: center;
+    font-size: large ;
+    
+}
